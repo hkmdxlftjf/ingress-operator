@@ -1,0 +1,6 @@
+apiVersion: bigfemonkey.cn.bigfemonkey.cn/v1
+kind: IngressOperator
+metadata:
+  name: ingressoperator-sample
+spec:
+  # TODO(user): Add fields here

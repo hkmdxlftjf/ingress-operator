@@ -1,0 +1,16 @@
+domain: bigfemonkey.cn
+layout:
+- go.kubebuilder.io/v3
+projectName: ingress-operator
+repo: ingress-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: bigfemonkey.cn
+  group: bigfemonkey.cn
+  kind: IngressOperator
+  path: ingress-operator/api/v1
+  version: v1
+version: "3"
